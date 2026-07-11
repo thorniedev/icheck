@@ -1,5 +1,5 @@
 import { cookies } from "next/headers";
-import type { NextResponse } from "next/server";
+import type { NextResponse as NextResponseType } from "next/server";
 
 export const DEVICE_COOKIE = "i-check-device-id";
 
@@ -32,7 +32,7 @@ function readCookie(req: Request, name: string): string | null {
  * from this browser carries a stable `deviceId` — used to bind a student's
  * account to a single device.
  */
-export function ensureDeviceCookie(req: Request, res: NextResponse): string {
+export function ensureDeviceCookie(req: Request, res: NextResponseType): string {
   const existing = readCookie(req, DEVICE_COOKIE);
   if (existing) return existing;
 

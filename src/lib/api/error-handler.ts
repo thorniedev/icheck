@@ -25,7 +25,7 @@ export function handleApiError(error: unknown) {
       'Validation failed',
       'VALIDATION_ERROR',
       400,
-      error.errors
+      error.flatten ? error.flatten().fieldErrors : undefined
     );
   }
 
