@@ -28,7 +28,7 @@ import {
   useUpdateStudentMutation,
 } from "@/store/api/userApi";
 import { useEnrollStudentMutation } from "@/store/api/enrollmentApi";
-import { getErrorMessage } from "@/lib/error-utils";
+import { getErrorMessage } from "@/lib/api/error-utils";
 import type { ClassroomDto } from "@/store/api/attendanceApi";
 
 export interface StudentFormValue {

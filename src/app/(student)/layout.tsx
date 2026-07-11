@@ -1,6 +1,6 @@
 import { getServerUser } from "@/auth-server";
 import { redirect } from "next/navigation";
-import { AppSidebar } from "@/components/app-sidebar";
+import { AppSidebar } from "@/components/common/app-sidebar";
 import { SiteHeader } from "@/components/site-header";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { OAUTH2_LOGIN_URL } from "@/lib/api-config";

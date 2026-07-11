@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Logo } from "@/components/logo";
+import { Logo } from "@/components/common/logo";
 import { AlertTriangleIcon, RotateCcwIcon } from "lucide-react";
 
 export default function ErrorBoundary({

@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { getServerUser } from "@/auth-server";
-import { LogoWordmark } from "@/components/logo";
+import { LogoWordmark } from "@/components/common/logo";
 import { backendFetch } from "@/lib/api-fetch";
 import { OAUTH2_LOGIN_URL } from "@/lib/api-config";
 import { OnboardingForm } from "./onboarding-form";

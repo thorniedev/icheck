@@ -29,7 +29,7 @@ import {
   DownloadIcon,
   ChevronDownIcon,
 } from "lucide-react";
-import { ISTAD_LOGO_URL } from "@/components/logo";
+import { ISTAD_LOGO_URL } from "@/components/common/logo";
 import { SingleCombobox } from "@/components/ui/multi-combobox";
 
 /** Load a remote image as a data URL so jsPDF can embed it. */

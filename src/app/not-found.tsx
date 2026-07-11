@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Logo } from "@/components/logo";
+import { Logo } from "@/components/common/logo";
 import { CompassIcon } from "lucide-react";
 
 export default function NotFound() {

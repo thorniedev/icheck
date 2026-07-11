@@ -16,7 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { LoaderCircleIcon, PlusIcon } from "lucide-react";
 import { useCreateTeacherMutation, useUpdateTeacherMutation } from "@/store/api/userApi";
-import { getErrorMessage } from "@/lib/error-utils";
+import { getErrorMessage } from "@/lib/api/error-utils";
 
 export interface TeacherFormValue {
   id?: number;

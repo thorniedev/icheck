@@ -12,8 +12,8 @@ import {
   LoaderCircleIcon,
   MapPinIcon,
 } from "lucide-react";
-import { parseQrPayload, type QrKind } from "@/lib/qr-token";
-import { useLiveLocation } from "@/lib/geolocation";
+import { parseQrPayload, type QrKind } from "@/lib/auth/qr-token";
+import { useLiveLocation } from "@/lib/utils/geolocation";
 import { getCheckInErrorMessage } from "@/lib/check-in-error";
 
 interface Props {

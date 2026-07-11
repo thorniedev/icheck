@@ -24,7 +24,7 @@ import {
   TeacherFormDialog,
   type TeacherFormValue,
 } from "@/components/teacher-form-dialog";
-import { getErrorMessage } from "@/lib/error-utils";
+import { getErrorMessage } from "@/lib/api/error-utils";
 import {
   DropdownMenu,
   DropdownMenuContent,

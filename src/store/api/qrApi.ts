@@ -1,5 +1,5 @@
 import { baseApi, unwrapContent, unwrapPayload, type ApiEnvelope, type PagePayload } from "@/store/api/baseApi";
-import { todayIso } from "@/lib/school-time";
+import { todayIso } from "@/lib/utils/school-time";
 
 export interface SessionDto {
   id: number;

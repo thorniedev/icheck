@@ -16,7 +16,7 @@ import {
   UsersRoundIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { LogoWordmark } from "@/components/logo";
+import { LogoWordmark } from "@/components/common/logo";
 import { cn } from "@/lib/utils";
 
 const features = [

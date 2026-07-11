@@ -6,8 +6,8 @@ import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { ChevronRightIcon } from "lucide-react";
 import { DarkModeToggle, ThemeSelector } from "@/components/theme-toggle";
-import { LogoWordmark } from "@/components/logo";
-import { NotificationBell } from "@/components/notification-bell";
+import { LogoWordmark } from "@/components/common/logo";
+import { NotificationBell } from "@/components/common/notification-bell";
 
 const ROUTE_LABELS: Record<string, string> = {
   "/dashboard":            "Dashboard",

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import { getErrorMessage } from "@/lib/error-utils";
+import { getErrorMessage } from "@/lib/api/error-utils";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -35,7 +35,7 @@ import {
   type ScheduleFormValue,
 } from "@/components/schedule-form-dialog";
 import { ItePresetInner } from "@/components/ite-preset-dialog";
-import { api } from "@/lib/api-client";
+import { api } from "@/lib/api/api-client";
 
 interface ClassroomOpt { id: number; className: string; }
 

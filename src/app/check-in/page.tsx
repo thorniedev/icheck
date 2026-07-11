@@ -6,8 +6,8 @@ import { useUser } from "@/components/user-provider";
 import { CheckCircleIcon, AlertCircleIcon, LoaderCircleIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Logo } from "@/components/logo";
-import { useLiveLocation } from "@/lib/geolocation";
+import { Logo } from "@/components/common/logo";
+import { useLiveLocation } from "@/lib/utils/geolocation";
 import { getCheckInErrorMessage } from "@/lib/check-in-error";
 
 type State = "loading" | "success" | "error" | "noToken" | "needReason";

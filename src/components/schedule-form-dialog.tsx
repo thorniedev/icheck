@@ -22,7 +22,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { LoaderCircleIcon } from "lucide-react";
-import { api } from "@/lib/api-client";
+import { api } from "@/lib/api/api-client";
 import { useGetTeachersQuery } from "@/store/api/userApi";
 import { SingleCombobox } from "@/components/ui/multi-combobox";
 

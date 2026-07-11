@@ -14,7 +14,7 @@ import {
   type SessionDto,
 } from "@/store/api/qrApi";
 import { useUser } from "@/components/user-provider";
-import { isTeacherStartableSession } from "@/lib/session-window";
+import { isTeacherStartableSession } from "@/lib/auth/session-window";
 
 const QR_LOGO_URL =
   "https://res.cloudinary.com/dsmqsivcj/image/upload/v1780286128/c4lgj7uipplt47mergga.png";

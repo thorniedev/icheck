@@ -12,7 +12,7 @@ import {
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Providers } from "@/components/providers";
-import { LOGO_URL } from "@/components/logo";
+import { LOGO_URL } from "@/components/common/logo";
 import { Toaster } from "@/components/ui/sonner";
 
 // Per-theme fonts — each theme picks a sans face that suits its color palette.

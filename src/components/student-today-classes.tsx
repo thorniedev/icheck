@@ -5,8 +5,8 @@ import { toast } from "sonner";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarClockIcon, DoorOpenIcon, LoaderCircleIcon } from "lucide-react";
-import { api } from "@/lib/api-client";
-import { getErrorMessage } from "@/lib/error-utils";
+import { api } from "@/lib/api/api-client";
+import { getErrorMessage } from "@/lib/api/error-utils";
 import { useUser } from "@/components/user-provider";
 import { useGetUserEnrollmentsQuery } from "@/store/api/userApi";
 
