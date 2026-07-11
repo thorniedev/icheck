@@ -27,7 +27,7 @@ import {
   ShieldCheckIcon,
   ThermometerSnowflake,
 } from "lucide-react";
-import { FreezeClassDialog } from "@/components/freeze-class-dialog";
+import { FreezeClassDialog } from '@/components/dashboard/classrooms/freeze-class-dialog';
 import {
   useGetSettingsQuery,
   useUpdateSettingMutation,

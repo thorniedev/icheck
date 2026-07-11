@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { ensureDeviceCookie } from "@/lib/device-cookie";
+import { ensureDeviceCookie } from "@/lib/utils/device-cookie";
 
 export default function middleware(req: NextRequest): NextResponse {
   const res = NextResponse.next();

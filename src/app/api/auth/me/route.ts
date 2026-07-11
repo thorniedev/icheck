@@ -1,5 +1,5 @@
 import { ACCESS_TOKEN_COOKIE, AUTH_API_URL } from "@/auth";
-import { applyRefreshedTokens, refreshTokensFromCookie } from "@/lib/refresh-tokens";
+import { applyRefreshedTokens, refreshTokensFromCookie } from '@/lib/auth/refresh-tokens';
 import { NextResponse } from "next/server";
 
 export const dynamic = "force-dynamic";

@@ -1,5 +1,5 @@
 import { getServerUser } from "@/auth-server";
-import { backendFetch } from "@/lib/api-fetch";
+import { backendFetch } from '@/lib/api/api-fetch';
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";

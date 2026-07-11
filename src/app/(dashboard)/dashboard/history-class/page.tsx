@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArchiveIcon } from "lucide-react";
-import { MyDropdownMenuCheckboxes } from "@/components/drop-donw";
+import { MyDropdownMenuCheckboxes } from '@/components/common/drop-donw';
 import { ClassCard } from "@/components/ui/class-card";
 import {
   getHistoryClassCounts,

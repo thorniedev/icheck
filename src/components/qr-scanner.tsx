@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { parseQrPayload, type QrKind } from "@/lib/auth/qr-token";
 import { useLiveLocation } from "@/lib/utils/geolocation";
-import { getCheckInErrorMessage } from "@/lib/check-in-error";
+import { getCheckInErrorMessage } from '@/lib/utils/check-in-error';
 
 interface Props {
   onClose: () => void;

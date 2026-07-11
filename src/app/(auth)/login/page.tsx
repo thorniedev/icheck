@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { OAUTH2_LOGIN_URL } from "@/lib/api-config";
+import { OAUTH2_LOGIN_URL } from '@/lib/api/api-config';
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/common/logo";
 import { AlertCircleIcon, RefreshCwIcon } from "lucide-react";

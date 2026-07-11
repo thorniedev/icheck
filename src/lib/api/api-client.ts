@@ -1,5 +1,5 @@
 
-import { API_URL } from "@/lib/api-config";
+import { API_URL } from '@/lib/api/api-config';
 
 async function request(
   path: string,

@@ -1,4 +1,4 @@
-import RequirePermissionForm from "@/components/form/requireStudentForm";
+import RequirePermissionForm from '@/components/marketing/form/requireStudentForm';
 
 export default function RequirePermissionPage() {
   return (

@@ -13,8 +13,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useState } from "react";
-import { Input } from "../ui/input";
-import { useAttendanceStream, type AttendanceUpdateEvent } from "@/lib/attendance-stream";
+import { Input } from '@/components/ui/input';
+import { useAttendanceStream, type AttendanceUpdateEvent } from '@/lib/utils/attendance-stream';
 import { useGetSessionAttendanceStatusQuery } from "@/store/api/attendanceApi";
 
 type AttendanceCheckingListProps = {

@@ -34,7 +34,7 @@ import {
   ScheduleFormDialog,
   type ScheduleFormValue,
 } from "@/components/schedule-form-dialog";
-import { ItePresetInner } from "@/components/ite-preset-dialog";
+import { ItePresetInner } from '@/components/dashboard/classrooms/ite-preset-dialog';
 import { api } from "@/lib/api/api-client";
 
 interface ClassroomOpt { id: number; className: string; }

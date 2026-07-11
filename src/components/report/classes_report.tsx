@@ -73,7 +73,7 @@ import {
   scholarshipCourseOf,
   isSemesterCategory,
   type ProgramCategory,
-} from "@/lib/program-category";
+} from '@/lib/utils/program-category';
 
 type Classroom = ClassroomDto;
 

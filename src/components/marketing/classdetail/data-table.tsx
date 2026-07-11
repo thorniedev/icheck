@@ -31,8 +31,8 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { useAttendanceStream, type AttendanceUpdateEvent } from "@/lib/attendance-stream";
-import { UnassignStudentButton } from "@/components/classdetail/unassign-student-button";
+import { useAttendanceStream, type AttendanceUpdateEvent } from '@/lib/utils/attendance-stream';
+import { UnassignStudentButton } from '@/components/marketing/classdetail/unassign-student-button';
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];

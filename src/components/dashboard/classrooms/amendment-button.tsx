@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { AmendmentDialog, type AmendmentDialogStudent } from "@/components/amendment-dialog";
+import { AmendmentDialog, type AmendmentDialogStudent } from '@/components/dashboard/classrooms/amendment-dialog';
 
 interface Props {
   students: AmendmentDialogStudent[];

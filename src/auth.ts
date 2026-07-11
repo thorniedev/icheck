@@ -1,4 +1,4 @@
-import { API_URL } from "@/lib/api-config";
+import { API_URL } from '@/lib/api/api-config';
 
 const DEFAULT_ATTENDANCE_SERVICE_URL = "https://attendance.icheck.today";
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArchiveIcon, BookOpenIcon, CalendarClockIcon, ClockIcon } from "lucide-react";
 import { getServerUser } from "@/auth-server";
-import { AdminDashboard } from "@/components/dashboard";
+import { AdminDashboard } from '@/components/dashboard/classrooms/admin-dashboard';
 import { Button } from "@/components/ui/button";
 import { ClassCard } from "@/components/ui/class-card";
 import {

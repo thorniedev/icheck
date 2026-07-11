@@ -29,7 +29,7 @@ import {
   PROGRAM_CATEGORIES,
   programCategoryOf,
   scholarshipCourseOf,
-} from "@/lib/program-category";
+} from '@/lib/utils/program-category';
 
 const SHIFT_LABEL: Record<string, string> = {
   MORNING: "Morning",

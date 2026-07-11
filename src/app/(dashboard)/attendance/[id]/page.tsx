@@ -2,7 +2,7 @@
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeftIcon, ClipboardCheckIcon } from "lucide-react";
 import Link from "next/link";
-import { backendFetch } from "@/lib/api-fetch";
+import { backendFetch } from '@/lib/api/api-fetch';
 
 interface Session {
   id: number;

@@ -1,4 +1,4 @@
-import { backendFetch } from "@/lib/api-fetch";
+import { backendFetch } from '@/lib/api/api-fetch';
 import { schoolNowMinutes, schoolToday, timeToMinutes, todayIso } from "@/lib/utils/school-time";
 import { fetchTeacherClassrooms, type ClassroomSummary } from "@/lib/utils/classroom-helpers";
 import { isOpenableStatus, isTeacherStartableSession } from "@/lib/auth/session-window";

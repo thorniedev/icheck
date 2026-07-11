@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Logo } from "@/components/common/logo";
 import { useLiveLocation } from "@/lib/utils/geolocation";
-import { getCheckInErrorMessage } from "@/lib/check-in-error";
+import { getCheckInErrorMessage } from '@/lib/utils/check-in-error';
 
 type State = "loading" | "success" | "error" | "noToken" | "needReason";
 

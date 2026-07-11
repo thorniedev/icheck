@@ -1,13 +1,13 @@
-import { backendFetch } from "@/lib/api-fetch";
+import { backendFetch } from '@/lib/api/api-fetch';
 import { getServerUser } from "@/auth-server";
 import AlertDialogDemo from "@/components/popup/start_session";
-import { AssignSubstituteDialog } from "@/components/assign-substitute-dialog";
-import { ClassroomEditButton } from "@/components/classroom-edit-button";
-import { FreezeClassDialog } from "@/components/freeze-class-dialog";
+import { AssignSubstituteDialog } from '@/components/dashboard/classrooms/assign-substitute-dialog';
+import { ClassroomEditButton } from '@/components/dashboard/classrooms/classroom-edit-button';
+import { FreezeClassDialog } from '@/components/dashboard/classrooms/freeze-class-dialog';
 import { StaticQrDialog } from "@/components/static-qr-dialog";
 import { Button } from "@/components/ui/button";
-import { columns } from "@/components/classdetail/column";
-import { DataTableList } from "@/components/classdetail/data-table";
+import { columns } from '@/components/marketing/classdetail/column';
+import { DataTableList } from '@/components/marketing/classdetail/data-table';
 import type { AttendanceList } from "@/types/attendance";
 import { formatTime12, schoolNowMinutes, timeToMinutes } from "@/lib/utils/school-time";
 import {

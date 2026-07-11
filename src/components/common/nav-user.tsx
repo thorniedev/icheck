@@ -27,7 +27,7 @@ import {
   LoaderCircleIcon,
 } from "lucide-react"
 import { useUpdateUser, useUser } from "@/components/user-provider"
-import { LOGOUT_URL } from "@/lib/api-config"
+import { LOGOUT_URL } from '@/lib/api/api-config'
 
 function initials(name: string) {
   if (!name) return "?";

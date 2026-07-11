@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeftIcon } from "lucide-react";
-import { backendFetch } from "@/lib/api-fetch";
-import { EnrollmentClient, type StudentRow } from "@/components/enrollment-client";
+import { backendFetch } from '@/lib/api/api-fetch';
+import { EnrollmentClient, type StudentRow } from '@/components/dashboard/classrooms/enrollment-client';
 
 interface Classroom {
   id: number;

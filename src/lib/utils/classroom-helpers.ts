@@ -1,4 +1,4 @@
-import { backendFetch } from "@/lib/api-fetch";
+import { backendFetch } from '@/lib/api/api-fetch';
 import { todayIso } from "@/lib/utils/school-time";
 
 export interface ClassroomSummary {

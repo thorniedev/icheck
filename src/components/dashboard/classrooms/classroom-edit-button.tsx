@@ -4,7 +4,7 @@ import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { PencilIcon } from "lucide-react";
-import { ClassroomFormDialog, type ClassroomFormValue } from "@/components/classroom-form-dialog";
+import { ClassroomFormDialog, type ClassroomFormValue } from '@/components/dashboard/classrooms/classroom-form-dialog';
 
 /**
  * Admin-only "Edit Class" button — opens the classroom form pre-filled with the

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { BookOpenIcon } from "lucide-react";
 import { ClassCard } from "@/components/ui/class-card";
-import { ClassroomAddButton } from "@/components/classroom-add-button";
-import { ClassroomsBrowser } from "@/components/classrooms-browser";
+import { ClassroomAddButton } from '@/components/dashboard/classrooms/classroom-add-button';
+import { ClassroomsBrowser } from '@/components/dashboard/classrooms/classrooms-browser';
 import { getServerUser } from "@/auth-server";
 import { fetchAllClassrooms, fetchClassCounts, type ClassroomSummary } from "@/lib/utils/classroom-helpers";
 import { fetchTeacherActiveClassrooms, type TeacherClassroomView } from "@/lib/auth/session-helpers";

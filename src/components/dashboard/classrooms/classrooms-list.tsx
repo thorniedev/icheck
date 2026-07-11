@@ -34,7 +34,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
-import { ClassroomFormDialog, type ClassroomFormValue } from "@/components/classroom-form-dialog";
+import { ClassroomFormDialog, type ClassroomFormValue } from '@/components/dashboard/classrooms/classroom-form-dialog';
 import { api } from "@/lib/api/api-client";
 
 export interface ClassroomItem {

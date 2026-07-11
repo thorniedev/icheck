@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ClipboardCheckIcon, ChevronRightIcon, ChevronDownIcon } from "lucide-react";
-import { API_URL } from "@/lib/api-config";
+import { API_URL } from '@/lib/api/api-config';
 
 interface Session {
   id: number;

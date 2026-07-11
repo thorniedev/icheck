@@ -1,8 +1,8 @@
 import ReportToday from "@/components/table/report_today";
-import { AmendmentButton } from "@/components/amendment-button";
+import { AmendmentButton } from '@/components/dashboard/classrooms/amendment-button';
 import { Button } from "@/components/ui/button";
 import { getServerUser } from "@/auth-server";
-import { backendFetch } from "@/lib/api-fetch";
+import { backendFetch } from '@/lib/api/api-fetch';
 import {
   fetchTodaySessionForClassroom,
   isTeacherCorrectionOpen,

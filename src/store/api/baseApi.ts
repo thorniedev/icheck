@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { API_URL } from "@/lib/api-config";
+import { API_URL } from '@/lib/api/api-config';
 
 export interface ApiEnvelope<T> {
   payload?: T;

@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { ACCESS_TOKEN_COOKIE, ATTENDANCE_API_URL } from "@/auth";
-import { getDeviceId } from "@/lib/device-cookie";
-import { getRequestUser } from "@/lib/server-user";
-import { getClientIp } from "@/lib/client-ip";
+import { getDeviceId } from '@/lib/utils/device-cookie';
+import { getRequestUser } from '@/lib/auth/server-user';
+import { getClientIp } from '@/lib/utils/client-ip';
 
 export const dynamic = "force-dynamic";
 

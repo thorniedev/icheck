@@ -52,7 +52,7 @@ import {
   SCHOLARSHIP_COURSES,
   isSemesterCategory,
   type ProgramCategory,
-} from "@/lib/program-category";
+} from '@/lib/utils/program-category';
 
 const SHIFTS = ["MORNING", "AFTERNOON", "EVENING"];
 const SHIFT_LABEL: Record<string, string> = { MORNING: "Morning", AFTERNOON: "Afternoon", EVENING: "Evening" };

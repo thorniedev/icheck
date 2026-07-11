@@ -11,7 +11,7 @@ import {
   UsersIcon,
   ClockIcon,
 } from "lucide-react";
-import { API_URL } from "@/lib/api-config";
+import { API_URL } from '@/lib/api/api-config';
 import { useUser } from "@/components/user-provider";
 
 const QR_TTL_SECONDS = 30;

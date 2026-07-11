@@ -11,7 +11,7 @@ import {
   OAUTH_STATE_COOKIE,
   REFRESH_TOKEN_COOKIE,
 } from "@/auth";
-import { ensureDeviceCookie } from "@/lib/device-cookie";
+import { ensureDeviceCookie } from '@/lib/utils/device-cookie';
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
 

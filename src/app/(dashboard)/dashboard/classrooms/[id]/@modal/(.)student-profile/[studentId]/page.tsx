@@ -1,4 +1,4 @@
-import { StudentProfilePanel } from "@/components/classdetail/student-profile-panel";
+import { StudentProfilePanel } from '@/components/marketing/classdetail/student-profile-panel';
 
 export default async function StudentProfileModal({
   params,

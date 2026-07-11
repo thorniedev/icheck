@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { ACCESS_TOKEN_COOKIE, BASE_API_URL } from "@/auth";
-import { applyRefreshedTokens, refreshTokensFromCookie } from "@/lib/refresh-tokens";
+import { applyRefreshedTokens, refreshTokensFromCookie } from '@/lib/auth/refresh-tokens';
 
 /**
  * Generic authenticated proxy for the RTK Query `baseApi` (`baseUrl: "/api/v1"`).

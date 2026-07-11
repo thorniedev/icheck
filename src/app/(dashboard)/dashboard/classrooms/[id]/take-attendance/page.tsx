@@ -1,6 +1,6 @@
 import AttendanceCheckingList from "@/components/table/check_attendance";
-import { AmendmentButton } from "@/components/amendment-button";
-import { backendFetch } from "@/lib/api-fetch";
+import { AmendmentButton } from '@/components/dashboard/classrooms/amendment-button';
+import { backendFetch } from '@/lib/api/api-fetch';
 import { todayIso, schoolNowMinutes, timeToMinutes } from "@/lib/utils/school-time";
 import { AttendanceStatus, type Student } from "@/types/student";
 import Link from "next/link";

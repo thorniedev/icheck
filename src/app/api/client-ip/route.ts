@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getClientIp } from "@/lib/client-ip";
+import { getClientIp } from '@/lib/utils/client-ip';
 
 export const dynamic = "force-dynamic";
 

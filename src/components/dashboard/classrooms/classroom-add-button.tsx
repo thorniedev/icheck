@@ -4,7 +4,7 @@ import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { PlusIcon } from "lucide-react";
-import { ClassroomFormDialog } from "@/components/classroom-form-dialog";
+import { ClassroomFormDialog } from '@/components/dashboard/classrooms/classroom-form-dialog';
 
 /** Admin-only "New Class" button — opens the create-class form (matches POST /classrooms). */
 export function ClassroomAddButton() {

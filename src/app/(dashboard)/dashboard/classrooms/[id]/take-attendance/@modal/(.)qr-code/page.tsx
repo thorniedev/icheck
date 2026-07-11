@@ -1,4 +1,4 @@
-import { Modal } from "@/components/modal";
+import { Modal } from '@/components/common/modal';
 import { TakeAttendanceQrCode } from "@/components/take-attendance-qr-code";
 
 export default async function PopupQRCode({

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Client, type IFrame, type IMessage } from "@stomp/stompjs";
 import SockJS from "sockjs-client";
-import { ATTENDANCE_PUBLIC_URL } from "@/lib/ws-config";
+import { ATTENDANCE_PUBLIC_URL } from '@/lib/utils/ws-config';
 
 /** Mirror of the backend `AttendanceUpdateEvent` record. */
 export interface AttendanceUpdateEvent {
